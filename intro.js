@@ -2,10 +2,7 @@
 
 console.log(jsAssignPt1);*/
 
-//For numbers divisible by 3, print "Fizz" instead
-//For numbers divisible by 5, print "Buzz" instead
-//For numbers divisible by 3 and 5, print "FizzBuzz" instead
-var jsAssignPt2 = 1;
+/*var jsAssignPt2 = 1;
 
 while(jsAssignPt2 <= 100) {
     if(jsAssignPt2 % 3 === 0 &&
@@ -26,4 +23,20 @@ while(jsAssignPt2 <= 100) {
     }
     
     jsAssignPt2++;
+}*/
+
+var jsAssignPt3 = "Baby Back RiBs";
+
+function countBs(string) {
+    var numOfBs = 0;
+    
+    for(var i = 0; i < string.length; i++) {
+        if(string.charAt(i) === "B") {
+            numOfBs++;
+        }
+    }
+    
+    return numOfBs;
 }
+
+console.log("Number of B's: " + countBs(jsAssignPt3));
