@@ -25,7 +25,7 @@ while(jsAssignPt2 <= 100) {
     jsAssignPt2++;
 }*/
 
-var jsAssignPt3 = "Baby Back RiBs";
+/*var jsAssignPt3 = "Baby Back RiBs";
 
 function countBs(string) {
     var numOfBs = 0;
@@ -39,4 +39,22 @@ function countBs(string) {
     return numOfBs;
 }
 
-console.log("Number of B's: " + countBs(jsAssignPt3));
+console.log("Number of B's: " + countBs(jsAssignPt3));*/
+
+var jsAssignPt4 = "SIC SEMPER FIDELIS";
+var charToFind = "P";
+
+function countChar(string, searchChar) {
+    var numOfSearchChar = 0;
+    
+    for(var i = 0; i < string.length; i++) {
+        if(string.charAt(i) === searchChar) {
+            numOfSearchChar++;
+        }
+    }
+    
+    return numOfSearchChar++;
+}
+
+console.log("Number of " + charToFind +  "'s: " +
+            countChar(jsAssignPt4, charToFind));
